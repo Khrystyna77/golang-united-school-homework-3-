@@ -5,8 +5,8 @@ import "fmt"
 func reverse(input []int64) (result []int64) {
 	//Place your code here
 
-	copy(result []int64, input []int64) int64 
-	//result = input
+	//copy(input, result)
+	result = input
 	for i := len(result)/2 - 1; i >= 0; i-- {
 		up := len(result) - 1 - i
 		result[i], result[up] = result[up], result[i]
