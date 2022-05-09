@@ -4,6 +4,7 @@ import "fmt"
 
 func average(input [15]float32) (result float32) {
 	//Place your code here
+	//Place your code here
 	//A := input
 	lenmy := len(input)
 	var sum float32 = 0
